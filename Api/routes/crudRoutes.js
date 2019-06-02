@@ -1,4 +1,3 @@
-"use strict";
 module.exports = app => {
   const todo = require("../controllers/crudController");
 

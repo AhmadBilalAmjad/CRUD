@@ -1,4 +1,3 @@
-"use strict";
 // External Modules
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
