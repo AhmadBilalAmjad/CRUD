@@ -1,0 +1,27 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "RESTful CRUD API",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadBilalAmjad/CRUD.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Ahmad Bilal Amjad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadBilalAmjad/CRUD/issues"
+  },
+  "homepage": "https://github.com/AhmadBilalAmjad/CRUD#readme"
+}
