@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
 const Task = mongoose.model("Tasks");
 
-const check = () => {};
-
 exports.list_all_tasks = (req, res) => {
   Task.find({}, (err, task) => {
     if (err) {
