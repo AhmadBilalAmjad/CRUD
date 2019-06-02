@@ -1,6 +1,7 @@
 module.exports = app => {
   const todo = require("../controllers/crudController");
 
+  app.route("/").get(todo.list_all_tasks);
   app
     .route("/tasks")
     .get(todo.list_all_tasks)
